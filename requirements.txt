@@ -1,0 +1,7 @@
+# requirements.txt
+kubernetes>=25.3.0
+openai>=1.0.0
+python-dotenv>=1.0.0
+argparse
+pytest>=7.0.0
+setuptools>=68.0.0
