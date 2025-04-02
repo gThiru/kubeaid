@@ -58,18 +58,23 @@ cp .env.example .env
 ```bash
 python main.py --namespace default --pod my-app --auto-fix
 ```
-## Show Help
-KubeAID - AI-powered Kubernetes Troubleshooting Tool
+## 🆘 Show Help
 
-Usage:
-  python main.py --namespace <namespace> --pod <pod-name> [--container <container-name>] [--auto-fix]
+**KubeAID - AI-powered Kubernetes Troubleshooting Tool**
 
-Options:
-  --namespace     Kubernetes namespace of the pod
-  --pod           Name of the pod to diagnose
-  --container     Optional container name (if multiple containers in pod)
-  --auto-fix      Automatically apply basic fixes (e.g., pod restart)
-  -h, --help      Show this help message and exit
+### 📌 Usage:
+```bash
+python main.py --namespace <namespace> --pod <pod-name> [--container <container-name>] [--auto-fix]
+```
+### ⚙️ Options
+
+| Option            | Description                                                       |
+|-------------------|-------------------------------------------------------------------|
+| `--namespace`     | Kubernetes namespace of the pod                                   |
+| `--pod`           | Name of the pod to diagnose                                       |
+| `--container`     | (Optional) Container name (if multiple containers in the pod)     |
+| `--auto-fix`      | Automatically apply basic fixes (e.g., pod restart)               |
+| `-h`, `--help`    | Show this help message and exit                                   |
 
 ## 🔐 Environment Variables
 ```
